@@ -1,11 +1,15 @@
+#---------------------------------------------------------------------------------------------------------------------------
+#Import required packages
 from tkinter import *
 from tkinter import ttk
 import random
+#---------------------------------------------------------------------------------------------------------------------------
+#Setup window
 root = Tk()
 root.geometry("400x425")
 root.title("Q4 final project")
 root.resizable(width=False, height=False)
-#dictionary to hold login informations
+#dictionary to hold login information
 login_data={'amontanus':'python2023','lucas':'2008'}
 #---------------------------------------------------------------------------------------------------------------------------
 #function wipes all widgets in root
